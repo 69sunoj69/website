@@ -397,21 +397,6 @@
                                                             class="ion-social-twitter"></i></span></a></li>
                                             <li><a href=""><span class="ico-circle"><i
                                                             class="ion-social-pinterest"></i></span></a></li>
-                                            
-                                           <div id="visitorCounterDisplay"></div>
-                                           <script>
-                                           // Check if visitor is new or returning
-                                           if (localStorage.getItem("visitorCounter") === null) {
-                                            localStorage.setItem("visitorCounter", 1);
-                                              } else {
-                                          let visitorCounter = localStorage.getItem("visitorCounter");
-                                           visitorCounter++;
-                                            localStorage.setItem("visitorCounter", visitorCounter);
-                                             }
-
-                                          // Display the visitor count
-                                            document.getElementById("visitorCounterDisplay").innerHTML = 
-                                           "Visitor Count: " + localStorage.getItem("visitorCounter");
                                         </ul>
                                     </div>
                                 </div>
