@@ -1,446 +1,408 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sunoj Shrestha | Professional Web and Application Developer</title>
-    <meta name="title" content="Sunoj Shrestha | Professional Web and Application Developer">
-    <meta name="description"
-        content="I'm a web Designer who loves to create user friendly websites. My expertise is to create website,app development (currently in learning phase) and more.">
-    <meta name="keywords"
-        content="sunojshrestha, sunoj, shrestha, web developer, react developer, react native developer, nepal">
-    <meta name="robots" content="index, follow">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="language" content="English">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sunoj Shrestha — Civil Engineer</title>
+    <meta name="description" content="Sunoj Shrestha is a civil engineer based in Myagdi, Nepal, focused on AutoCAD drafting, project planning and construction — with clear communication at every stage.">
     <meta name="author" content="Sunoj Shrestha">
+    <meta name="theme-color" content="#F3F1EC">
+    <link rel="canonical" href="https://shresthasunoj.com.np/">
 
+    <!-- Open Graph / social preview -->
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="Sunoj Shrestha — Civil Engineer">
+    <meta property="og:description" content="Thoughtful design, grounded in reality. AutoCAD drafting, project planning and construction.">
+    <meta property="og:url" content="https://shresthasunoj.com.np/">
+    <meta property="og:image" content="https://shresthasunoj.com.np/images/mainbg.jpg">
+    <meta name="twitter:card" content="summary_large_image">
 
-    <!-- Favicons -->
-    <link href="images/favicon.ico" rel="icon">
-    <link href="images/favicon.ico" rel="apple-touch-icon">
+    <!-- Theme is resolved before first paint to avoid a light/dark flash -->
+    <script src="js/theme-init.js"></script>
 
-    <!-- Bootstrap CSS File -->
-    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="images/icon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wdth,wght@75..100,400..700&family=JetBrains+Mono:wght@400;500&display=swap">
+    <link rel="preload" as="image" href="images/mainbg.jpg">
 
-    <!-- Libraries CSS Files -->
-    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/tokens.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/sections.css">
 
-    <!-- Main Stylesheet File -->
-    <link href="css/style.css" rel="stylesheet">
+    <script src="js/site.js" defer></script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sunoj Shrestha",
+        "jobTitle": "Civil Engineer",
+        "url": "https://shresthasunoj.com.np/",
+        "image": "https://shresthasunoj.com.np/images/PassportPhoto.jpg",
+        "email": "mailto:sunojshrestha07@gmail.com",
+        "telephone": "+977-9867753447",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Beni",
+            "addressRegion": "Myagdi",
+            "addressCountry": "NP"
+        },
+        "knowsAbout": ["Civil engineering", "AutoCAD", "Project management", "Construction", "Python"]
+    }
+    </script>
 </head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
 
-<body id="page-top">
+    <!-- ============================== Header ============================== -->
+    <header class="site-header" data-header>
+        <div class="wrap header-inner">
+            <a class="brand" href="#top" aria-label="Sunoj Shrestha — back to top">
+                <span class="brand-mark" aria-hidden="true">SS</span>
+                <span class="brand-text">
+                    <strong>Sunoj Shrestha</strong>
+                    <span>Civil Engineer</span>
+                </span>
+            </a>
 
-    <!--/ Nav Star /-->
-    <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand js-scroll" href="#page-top">Sunoj Shrestha</a>
-            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
-                aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll active" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll" href="#service">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll" href="#work">Work</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll" href="#contact">Contact</a>
-                    </li>
+            <nav class="site-nav" id="site-nav" aria-label="Primary">
+                <ul role="list">
+                    <li><a href="#about" data-nav-link>About</a></li>
+                    <li><a href="#expertise" data-nav-link>Expertise</a></li>
+                    <li><a href="#process" data-nav-link>Process</a></li>
+                    <li><a href="#contact" data-nav-link>Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch to dark theme">
+                    <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M4.6 4.6l1.6 1.6M17.8 17.8l1.6 1.6M2.5 12h2.2M19.3 12h2.2M4.6 19.4l1.6-1.6M17.8 6.2l1.6-1.6"/></svg>
+                    <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.2 14.6A8.5 8.5 0 0 1 9.4 3.8a8.5 8.5 0 1 0 10.8 10.8Z"/></svg>
+                </button>
+                <a class="button button-primary button-sm header-cta" href="#contact">Let’s talk</a>
+                <button class="menu-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+                    <span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main id="main">
+        <!-- =============================== Hero =============================== -->
+        <section class="hero" id="top" aria-labelledby="hero-title">
+            <div class="blueprint-grid" aria-hidden="true"></div>
+
+            <div class="wrap hero-layout">
+                <div class="hero-copy">
+                    <p class="pill" data-reveal>
+                        <span class="status-dot" aria-hidden="true"></span>
+                        Open to opportunities · Beni, Nepal
+                    </p>
+                    <h1 id="hero-title" data-reveal>Thoughtful design, <em class="accent">grounded</em> in reality.</h1>
+                    <p class="hero-lead" data-reveal>
+                        I’m Sunoj Shrestha, a civil engineer who brings care, clarity and
+                        practical thinking to the places we build, from the first drawing
+                        to the work on site.
+                    </p>
+                    <div class="hero-actions" data-reveal>
+                        <a class="button button-primary" href="#contact">
+                            Start a conversation
+                            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                        </a>
+                        <a class="button button-ghost" href="#expertise">Explore expertise</a>
+                    </div>
+
+                    <dl class="hero-facts" data-reveal>
+                        <div>
+                            <dt class="mono">Discipline</dt>
+                            <dd>Civil engineering</dd>
+                        </div>
+                        <div>
+                            <dt class="mono">Focus</dt>
+                            <dd>Drafting · Planning · Construction</dd>
+                        </div>
+                        <div>
+                            <dt class="mono">Based in</dt>
+                            <dd>Myagdi, Nepal</dd>
+                        </div>
+                    </dl>
+                </div>
+
+                <figure class="hero-figure" data-reveal>
+                    <div class="sheet">
+                        <span class="sheet-corner" aria-hidden="true"></span>
+                        <span class="sheet-corner" aria-hidden="true"></span>
+                        <span class="sheet-corner" aria-hidden="true"></span>
+                        <span class="sheet-corner" aria-hidden="true"></span>
+                        <img src="images/mainbg.jpg" alt="Portrait of Sunoj Shrestha" width="1047" height="1497" fetchpriority="high">
+                    </div>
+                    <figcaption class="title-block">
+                        <div><span class="mono">Name</span><strong>Sunoj Shrestha</strong></div>
+                        <div><span class="mono">Sheet</span><strong>01 / 01</strong></div>
+                        <div><span class="mono">Discipline</span><strong>Civil</strong></div>
+                        <div><span class="mono">Location</span><strong>28.35° N, 83.57° E</strong></div>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- ============================ Focus ticker ============================ -->
+        <section class="ticker" aria-label="Areas of focus">
+            <div class="ticker-track">
+                <ul role="list" class="ticker-list">
+                    <li>AutoCAD drafting</li>
+                    <li>Project planning</li>
+                    <li>Construction</li>
+                    <li>Site coordination</li>
+                    <li>Clear communication</li>
+                    <li>Learning Python</li>
+                </ul>
+                <ul role="list" class="ticker-list" aria-hidden="true">
+                    <li>AutoCAD drafting</li>
+                    <li>Project planning</li>
+                    <li>Construction</li>
+                    <li>Site coordination</li>
+                    <li>Clear communication</li>
+                    <li>Learning Python</li>
                 </ul>
             </div>
-        </div>
-    </nav>
-    <!--/ Nav End /-->
+        </section>
 
-    <!--/ Intro Skew Star /-->
-    <div id="home" class="intro route bg-image" style="background-image: url(images/intro-bg.jpg)">
-        <div class="overlay-itro"></div>
-        <div class="intro-content display-table">
-            <div class="table-cell">
-                <div class="container">
-                    <!--<p class="display-6 color-d">Hello, world!</p>-->
-                    <h1 class="intro-title mb-4">I am Sunoj Shrestha</h1>
-                    <p class="intro-subtitle"><span class="text-slider-items">Web Developer,Web
-                            Designer,Backend Developer, React Developer</span><strong class="text-slider"></strong></p>
-                    <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--/ Intro Skew End /-->
-
-    <section id="about" class="about-mf sect-pt4 route">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="box-shadow-full">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="row">
-                                    <div class="col-sm-6 col-md-5">
-                                        <div class="about-img">
-                                            <img src="images/logo.jpg" class="img-fluid rounded b-shadow-a"
-                                                alt="Sunoj Shrestha Profile Image">
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6 col-md-7">
-                                        <div class="about-info">
-                                            <p><span class="title-s">Name: </span> <span>Sunoj Shrestha</span></p>
-                                            <p><span class="title-s">Profile: </span> <span>Full Stack Developer</span>
-                                            </p>
-                                            <p><span class="title-s">Email: </span>
-                                                <span>sunojshrestha07@gmail.com</span>
-                                            </p>
-                                            <p><span class="title-s">Phone: </span> <span>+977 9800000000</span></p>
-
-                                            <a href="images/sunojcv.pdf" download
-                                                class="btn btn-primary">Download CV</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="skill-mf">
-                                    <p class="title-s">Skill</p>
-                                    <span>Frontend Development</span> <span class="pull-right">70%</span>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: 85%;"
-                                            aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <span>Backend Development (PHP)</span> <span class="pull-right">75%</span>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: 95%"
-                                            aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <span>React Native</span> <span class="pull-right">70%</span>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: 80%"
-                                            aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                    <span>JAVASCRIPT</span> <span class="pull-right">80%</span>
-                                    <div class="progress">
-                                        <div class="progress-bar" role="progressbar" style="width: 90%"
-                                            aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="about-me pt-4 pt-md-0">
-                                    <div class="title-box-2">
-                                        <h5 class="title-left">
-                                            About me
-                                        </h5>
-                                    </div>
-                                    <p class="lead">
-                                        Hello, my name is Sunoj Shrestha and I am a professional web designer. I specialize in creating visually appealing and user-friendly websites that effectively communicate my clients' brand and message to their target audience.
-                                     I have experience in various aspects of web design, including layout, color scheme, typography, and imagery. I am also well-versed in responsive design, ensuring that websites I design look great on any device.
-                                     I pay special attention to the user experience (UX) and user interface (UI) design, making sure that the websites I design are easy to navigate and use.
-                                     I work closely with my clients to understand their unique needs and goals and I am dedicated to delivering high-quality products on time and within budget.
-                                     I have a passion for web design and I am always looking for ways to improve my skills and stay updated with the latest design trends and technologies.
-                                     I would be happy to have the opportunity to work with you on your next web design project.
-                                        
-                                
-                
-    
-                                    </p>
-                                    <p class="lead">
-                                        Currently, I am learning React JS and NodeJS. I can build complete websites
-                                        using ReactJS as frontend and Node JS as backend.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--/ Section Services Star /-->
-    <section id="service" class="services-mf route">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="title-box text-center">
-                        <h3 class="title-a">
-                            Services
-                        </h3>
-                        <p class="subtitle-a">
-                            Work I can do
+        <!-- =============================== About =============================== -->
+        <section class="section" id="about" aria-labelledby="about-title">
+            <div class="wrap about-layout">
+                <div class="about-copy">
+                    <p class="section-label mono" data-reveal><span>01</span>About</p>
+                    <h2 id="about-title" data-reveal>Good engineering starts with <em class="accent">understanding.</em></h2>
+                    <div class="prose" data-reveal>
+                        <p>
+                            I’m a civil engineer who believes successful projects are built on
+                            clear communication, considered planning and attention to detail.
+                            I enjoy turning requirements into practical next steps and working
+                            with others toward safe, useful outcomes.
                         </p>
-                        <div class="line-mf"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="service-box">
-                        <div class="service-ico">
-                            <span class="ico-circle"><i class="ion-monitor"></i></span>
-                        </div>
-                        <div class="service-content">
-                            <h2 class="s-title">Website Development</h2>
-                            <p class="s-description text-center">Built complete website (Frontend and Backend) using
-                                Wordpress or Custom PHP.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="service-box">
-                        <div class="service-ico">
-                            <span class="ico-circle"><i class="ion-android-apps"></i></span>
-                        </div>
-                        <div class="service-content">
-                            <h2 class="s-title">App Development</h2>
-                            <p class="s-description text-center">Im in a learning phase to build complete hybrid app using React Native.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="service-box">
-                        <div class="service-ico">
-                            <span class="ico-circle"><i class="ion-social-wordpress"></i></span>
-                        </div>
-                        <div class="service-content">
-                            <h2 class="s-title">Wordpress</h2>
-                            <p class="s-description text-center">I can build wordpress themes and advance plugin from
-                                scratch.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--/ Section Services End /-->
-
-    <div class="section-counter paralax-mf bg-image" style="background-image: url(images/counters-bg.jpg)">
-        <div class="overlay-mf"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-3 col-lg-3">
-                    <div class="counter-box">
-                        <div class="counter-ico">
-                            <span class="ico-circle"><i class="ion-checkmark-round"></i></span>
-                        </div>
-                        <div class="counter-num">
-                            <p class="counter">7</p>
-                            <span class="counter-text">WORKS COMPLETED</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3 col-lg-3">
-                    <div class="counter-box pt-4 pt-md-0">
-                        <div class="counter-ico">
-                            <span class="ico-circle"><i class="ion-ios-calendar-outline"></i></span>
-                        </div>
-                        <div class="counter-num">
-                            <p class="counter">01</p>
-                            <span class="counter-text">YEARS OF EXPERIENCE</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3 col-lg-3">
-                    <div class="counter-box pt-4 pt-md-0">
-                        <div class="counter-ico">
-                            <span class="ico-circle"><i class="ion-ios-people"></i></span>
-                        </div>
-                        <div class="counter-num">
-                            <p class="counter">10</p>
-                            <span class="counter-text">TOTAL CLIENTS</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3 col-lg-3">
-                    <div class="counter-box pt-4 pt-md-0">
-                        <div class="counter-ico">
-                            <span class="ico-circle"><i class="ion-ribbon-a"></i></span>
-                        </div>
-                        <div class="counter-num">
-                            <p class="counter">0</p>
-                            <span class="counter-text">AWARD WON</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--/ Section Portfolio Star /-->
-    <section id="work" class="portfolio-mf sect-pt4 route">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="title-box text-center">
-                        <h3 class="title-a">
-                            Portfolio
-                        </h3>
-                        <p class="subtitle-a">
-                            Currently im creating an e commerce website.
+                        <p>
+                            My work centres on AutoCAD drafting, project management and
+                            construction. Alongside that, I’m learning Python to add another
+                            tool for solving problems and handling technical work.
                         </p>
-                        <div class="line-mf"></div>
                     </div>
+                    <a class="link-arrow" href="#process" data-reveal>
+                        How I work
+                        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+                    </a>
                 </div>
-            </div>
-            <div class="row">
 
-    </section>
-    <!--/ Section Portfolio End /-->
-
-    <!--/ Section Contact-Footer Star /-->
-    <section class="paralax-mf footer-paralax bg-image sect-mt4 route"
-        style="background-image: url(img/overlay-bg.jpg)">
-        <div class="overlay-mf"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="contact-mf">
-                        <div id="contact" class="box-shadow-full">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="title-box-2">
-                                        <h5 class="title-left">
-                                            Send Message Us
-                                        </h5>
-                                    </div>
-                                    <div>
-                                        <form action="" method="post" role="form" class="contactForm">
-                                            <div id="sendmessage">Your message has been sent. Thank you!</div>
-                                            <div id="errormessage"></div>
-                                            <div class="row">
-                                                <div class="col-md-12 mb-3">
-                                                    <div class="form-group">
-                                                        <input type="text" name="name" class="form-control" id="name"
-                                                            placeholder="Your Name" data-rule="minlen:4"
-                                                            data-msg="Please enter at least 4 chars" />
-                                                        <div class="validation"></div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-12 mb-3">
-                                                    <div class="form-group">
-                                                        <input type="email" class="form-control" name="email" id="email"
-                                                            placeholder="Your Email" data-rule="email"
-                                                            data-msg="Please enter a valid email" />
-                                                        <div class="validation"></div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-12 mb-3">
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" name="subject"
-                                                            id="subject" placeholder="Subject" data-rule="minlen:4"
-                                                            data-msg="Please enter at least 8 chars of subject" />
-                                                        <div class="validation"></div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-12 mb-3">
-                                                    <div class="form-group">
-                                                        <textarea class="form-control" name="message" rows="5"
-                                                            data-rule="required"
-                                                            data-msg="Please write something for us"
-                                                            placeholder="Message"></textarea>
-                                                        <div class="validation"></div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-12">
-                                                    <button type="submit" class="btn btn-primary btn-lg">Send
-                                                        Message</button>
-                                                </div>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="title-box-2 pt-4 pt-md-0">
-                                        <h5 class="title-left">
-                                            Get in Touch
-                                        </h5>
-                                    </div>
-                                    <div class="more-info">
-                                        <p class="lead">
-                                            As a as a web designer, my goal is to create visually appealing and user-friendly websites 
-                                         that effectively communicate my clients' brand and message to their target audience. I have the
-                                         experience and expertise to bring your vision to life and I am dedicated to delivering high-quality 
-                                         products on time and within budget. I am always looking for ways to improve my skills and stay up-to
-                                         -date with the latest design trends and technologies. If you are in need of a web designer, I would 
-                                         love the opportunity to work with you and help bring your project to the next level.
-                                            
-                                            
-                                        </p>
-                                        <ul class="list-ico">
-                                            <li><span class="ion-ios-location"></span> Myagdi - 07, Beni 33200,
-                                                Nepal</li>
-                                            <li><span class="ion-ios-telephone"></span> +977 9800000000</li>
-                                            <li><span class="ion-email"></span> sunojshrestha07@gmail.com</li>
-                                        </ul>
-                                    </div>
-                                    <div class="socials">
-                                        <ul>
-                                            <li><a href="https://facebook.com/suno69"><span class="ico-circle"><i
-                                                            class="ion-social-facebook"></i></span></a></li>
-                                            <li><a href="https://www.instagram.com/s.shrestha_10/"><span class="ico-circle"><i
-                                                            class="ion-social-instagram"></i></span></a></li>
-                                            <li><a href="https://twitter.com/Sunoj_10"><span class="ico-circle"><i
-                                                            class="ion-social-twitter"></i></span></a></li>
-                                            <li><a href=""><span class="ico-circle"><i
-                                                            class="ion-social-pinterest"></i></span></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
+                <aside class="profile-card" aria-label="Profile summary" data-reveal>
+                    <div class="profile-head">
+                        <img src="images/PassportPhoto.jpg" alt="" width="1112" height="1415" loading="lazy">
+                        <div>
+                            <strong>Sunoj Shrestha</strong>
+                            <span>Civil Engineer</span>
                         </div>
                     </div>
+                    <dl class="spec-list">
+                        <div><dt class="mono">Discipline</dt><dd>Civil engineering</dd></div>
+                        <div><dt class="mono">Core tool</dt><dd>AutoCAD</dd></div>
+                        <div><dt class="mono">Strengths</dt><dd>Planning, coordination, communication</dd></div>
+                        <div><dt class="mono">Learning</dt><dd>Python</dd></div>
+                        <div><dt class="mono">Based in</dt><dd>Beni, Myagdi, Nepal</dd></div>
+                    </dl>
+                </aside>
+            </div>
+        </section>
+
+        <!-- ============================= Expertise ============================= -->
+        <section class="section section-alt" id="expertise" aria-labelledby="expertise-title">
+            <div class="wrap">
+                <header class="section-head">
+                    <p class="section-label mono" data-reveal><span>02</span>Expertise</p>
+                    <div class="section-head-row">
+                        <h2 id="expertise-title" data-reveal>Skills for work that <em class="accent">stands up.</em></h2>
+                        <p data-reveal>
+                            From the first drawing to the final handover, good projects depend on
+                            sound technical skills and people working well together.
+                        </p>
+                    </div>
+                </header>
+
+                <div class="bento" data-reveal-stagger>
+                    <article class="card card-feature" data-reveal>
+                        <div class="card-body">
+                            <span class="card-tag mono">01 — Drafting</span>
+                            <h3>AutoCAD</h3>
+                            <p>Precise drafting and clear technical drawings that help ideas move confidently toward construction.</p>
+                            <ul role="list" class="chips">
+                                <li>Technical drawings</li>
+                                <li>Plans &amp; sections</li>
+                                <li>Detailing</li>
+                            </ul>
+                        </div>
+                        <svg class="drawing" viewBox="0 0 360 210" role="img" aria-label="Line drawing of a two-storey frame section with grid lines and dimensions">
+                            <g class="d-grid">
+                                <path d="M60 30v150M180 30v150M300 30v150"/>
+                            </g>
+                            <g class="d-bubbles">
+                                <circle cx="60" cy="18" r="10"/><circle cx="180" cy="18" r="10"/><circle cx="300" cy="18" r="10"/>
+                                <text x="60" y="21.5">A</text><text x="180" y="21.5">B</text><text x="300" y="21.5">C</text>
+                            </g>
+                            <g class="d-frame">
+                                <path pathLength="1" d="M60 168V60M180 168V60M300 168V60"/>
+                                <path pathLength="1" d="M52 60h256M52 114h256"/>
+                            </g>
+                            <path class="d-highlight" pathLength="1" d="M60 114h120"/>
+                            <g class="d-ground">
+                                <path pathLength="1" d="M24 168h312"/>
+                                <path d="M34 168l-8 8M50 168l-8 8M66 168l-8 8M82 168l-8 8M98 168l-8 8M114 168l-8 8M130 168l-8 8M146 168l-8 8M162 168l-8 8M178 168l-8 8M194 168l-8 8M210 168l-8 8M226 168l-8 8M242 168l-8 8M258 168l-8 8M274 168l-8 8M290 168l-8 8M306 168l-8 8M322 168l-8 8M338 168l-8 8"/>
+                            </g>
+                            <g class="d-dims">
+                                <path d="M60 196h240M60 191v10M180 191v10M300 191v10M56 200l8-8M176 200l8-8M296 200l8-8"/>
+                                <text x="120" y="191">4500</text><text x="240" y="191">4500</text>
+                            </g>
+                            <g class="d-levels">
+                                <text x="318" y="63">+6.00</text><text x="318" y="117">+3.00</text><text x="318" y="164">±0.00</text>
+                            </g>
+                        </svg>
+                    </article>
+
+                    <article class="card" data-reveal>
+                        <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15.5" rx="2"/><path d="M8 3v4M16 3v4M3.5 10h17M8 14h4M8 17h7"/></svg></span>
+                        <span class="card-tag mono">02 — Planning</span>
+                        <h3>Project management</h3>
+                        <p>Organised planning, coordination and follow-through that keep priorities visible and teams aligned.</p>
+                    </article>
+
+                    <article class="card" data-reveal>
+                        <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 20.5h18M5 20.5V11l7-5 7 5v9.5M9.5 20.5v-6h5v6M12 6V3.5"/></svg></span>
+                        <span class="card-tag mono">03 — On site</span>
+                        <h3>Construction</h3>
+                        <p>A grounded understanding of construction practice, site coordination and practical delivery.</p>
+                    </article>
+
+                    <article class="card" data-reveal>
+                        <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 5.5h11a2 2 0 0 1 2 2V13a2 2 0 0 1-2 2H9l-4 3.5V15H4a2 2 0 0 1-2-2V7.5a2 2 0 0 1 2-2Z"/><path d="M17 9h3a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-1v3l-3.5-3H12"/></svg></span>
+                        <span class="card-tag mono">04 — People</span>
+                        <h3>Communication</h3>
+                        <p>Clear, considerate collaboration with teams, clients and stakeholders at every stage of a project.</p>
+                    </article>
+
+                    <article class="card card-learning" data-reveal>
+                        <span class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m8 8-4 4 4 4M16 8l4 4-4 4M13.5 5l-3 14"/></svg></span>
+                        <span class="card-tag mono">05 — Learning</span>
+                        <h3>Python</h3>
+                        <p>Building programming skills to complement engineering work and approach technical problems in new ways.</p>
+                        <span class="badge"><span class="status-dot" aria-hidden="true"></span>In progress</span>
+                    </article>
                 </div>
             </div>
+        </section>
+
+        <!-- ============================== Process ============================== -->
+        <section class="section" id="process" aria-labelledby="process-title">
+            <div class="wrap">
+                <header class="section-head">
+                    <p class="section-label mono" data-reveal><span>03</span>Process</p>
+                    <div class="section-head-row">
+                        <h2 id="process-title" data-reveal>How I approach <em class="accent">the work.</em></h2>
+                        <p data-reveal>
+                            The work is bigger than the drawing. Every build begins with listening
+                            and is finished with care.
+                        </p>
+                    </div>
+                </header>
+
+                <ol role="list" class="steps" data-reveal-stagger>
+                    <li class="step" data-reveal>
+                        <span class="step-num mono">Step 01</span>
+                        <h3>Listen &amp; understand</h3>
+                        <p>Start with the site, the brief and the people involved, so the requirements are clear before anything is drawn.</p>
+                    </li>
+                    <li class="step" data-reveal>
+                        <span class="step-num mono">Step 02</span>
+                        <h3>Plan the work</h3>
+                        <p>Break the project into clear priorities, sequences and responsibilities that the whole team can follow.</p>
+                    </li>
+                    <li class="step" data-reveal>
+                        <span class="step-num mono">Step 03</span>
+                        <h3>Draw it precisely</h3>
+                        <p>Turn decisions into accurate drawings that leave little room for guesswork on site.</p>
+                    </li>
+                    <li class="step" data-reveal>
+                        <span class="step-num mono">Step 04</span>
+                        <h3>Build responsibly</h3>
+                        <p>Follow through with safety, quality and open communication from start to handover.</p>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- ============================= Statement ============================= -->
+        <section class="statement" aria-label="Working principle">
+            <div class="blueprint-grid" aria-hidden="true"></div>
+            <div class="wrap statement-inner">
+                <p class="section-label mono" data-reveal><span>—</span>Working principle</p>
+                <p class="statement-text" data-reveal>Plan carefully. <em class="accent">Build responsibly.</em></p>
+            </div>
+        </section>
+
+        <!-- ============================== Contact ============================== -->
+        <section class="section" id="contact" aria-labelledby="contact-title">
+            <div class="wrap">
+                <div class="contact-card" data-reveal>
+                    <div class="contact-intro">
+                        <p class="section-label mono"><span>04</span>Contact</p>
+                        <h2 id="contact-title">Have a project in mind? Let’s <em class="accent">talk it through.</em></h2>
+                        <p>
+                            I’m happy to connect about civil engineering opportunities, project
+                            collaboration, or simply to talk through an idea.
+                        </p>
+                    </div>
+
+                    <div class="contact-actions">
+                        <div class="email-row">
+                            <a class="contact-email" href="mailto:sunojshrestha07@gmail.com">sunojshrestha07@gmail.com</a>
+                            <button class="copy-button" type="button" data-copy="sunojshrestha07@gmail.com" aria-label="Copy email address">
+                                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="8.5" y="8.5" width="12" height="12" rx="2"/><path d="M15.5 8.5V5.5a2 2 0 0 0-2-2h-8a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h3"/></svg>
+                                <span data-copy-label>Copy</span>
+                            </button>
+                        </div>
+                        <dl class="contact-list">
+                            <div>
+                                <dt class="mono">Phone</dt>
+                                <dd><a href="tel:+9779867753447">+977 986 775 3447</a></dd>
+                            </div>
+                            <div>
+                                <dt class="mono">Location</dt>
+                                <dd>Beni, Myagdi, Nepal</dd>
+                            </div>
+                        </dl>
+                        <a class="button button-primary" href="mailto:sunojshrestha07@gmail.com">
+                            Send an email
+                            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ============================== Footer ============================== -->
+    <footer class="site-footer">
+        <div class="wrap footer-inner">
+            <a class="brand" href="#top" aria-label="Sunoj Shrestha — back to top">
+                <span class="brand-mark" aria-hidden="true">SS</span>
+                <span class="brand-text">
+                    <strong>Sunoj Shrestha</strong>
+                    <span>Civil Engineer</span>
+                </span>
+            </a>
+            <p class="footer-tagline">Thoughtfully planned. Responsibly built.</p>
+            <p class="footer-meta">© <span data-year>2026</span> Sunoj Shrestha · <a href="#top">Back to top ↑</a></p>
         </div>
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="copyright-box">
-                            <p class="copyright">&copy; Copyright 2023. All Rights Reserved</p>
-                            <div class="credits">
-                                Designed by <a href="https://shresthasunoj.com.np/">Sunoj Shrestha</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-    </section>
-    <!--/ Section Contact-footer End /-->
+    </footer>
 
-    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-    <div id="preloader"></div>
-
-    <!-- JavaScript Libraries -->
-    <script src="lib/jquery/jquery.min.js"></script>
-    <script src="lib/jquery/jquery-migrate.min.js"></script>
-    <script src="lib/popper/popper.min.js"></script>
-    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/counterup/jquery.waypoints.min.js"></script>
-    <script src="lib/counterup/jquery.counterup.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
-    <script src="lib/typed/typed.min.js"></script>
-    <!-- Contact Form JavaScript File -->
-    <script src="js/contactform.js"></script>
-    <!-- Template Main Javascript File -->
-    <script src="js/main.js"></script>
-
+    <p class="visually-hidden" aria-live="polite" data-announcer></p>
 </body>
-
 </html>
